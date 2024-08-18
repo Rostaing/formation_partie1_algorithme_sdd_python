@@ -1,3 +1,5 @@
+# Ceci est un commentaire qui ne sera pas pris en compte lors de la compilation du programme en Python
+
 # Afficher une chaîne de caractère 
 # print('Salut, les amis de la Data !')
 
@@ -44,7 +46,6 @@
 #     print("Bonjour!")
 
 # i = 0
-
 # while i < 5:
 #     print("Bojour, les amis de la data !")
     
@@ -61,39 +62,29 @@
 #     print(t[i])
 
 # tab = [7, 20.5, "E", "Rostaing", True, False]
-
 # # print(tab[4])
 
 # j = 0
-
 # while j < 6:
 #     print(tab[j])
 
 #     j = j  + 1
-
-
 # def somme(x1, x2):
     
 #     s = x1 + x2
 #     print(s)
-
-
 # # a = int(input("Tapez le premier entier: "))
 # # b = int(input("Tapez le deuxième entier: "))
-
 # resultat = somme(2, 5)
 # print(resultat)
 
 # def carre(nombre):
 
 #     return nombre * nombre
-
 # resultat = carre(2)
-
 # print(resultat)
 
 # valeur = "Rostaing AI"
-
 # print(len(valeur))
 
 # age = 12
@@ -107,7 +98,6 @@
 # Tuple
 
 # t = (4, 5, 0, 2, 3)
-
 # print(t[4])
 
 # d = {"nom":"Rostaing", "age":10, "taille":1.80}
@@ -146,7 +136,6 @@
 # print(s)
 
 # teta = 30
-
 # t = sin(teta) / cos(teta)
 # print(t)
 
@@ -168,7 +157,6 @@
 
 #     else:
 #         print(f"{x} est un nombre impair")
-
 # print(nombre_pair(3))
 
 # def maturite(age):
@@ -178,18 +166,16 @@
 #         print("Vous êtes majeur(e).")
 
 # a = int(input("Quel est votre âge: "))
-
 # print(maturite(a))
 
 # directeur = False
-
 # if directeur:
 #     print("Vous êtes directeur !")
 # else:
 #     print("Vous n'êtes pas directeur !")
 
+# ET en python c'est and ou &
 # temperature = 19
-
 # if temperature >= 25:
 #     print("chaud !")
 # elif temperature >= 20 and temperature <= 24:
@@ -198,7 +184,6 @@
 #     print("Froid")
 
 # di = {"nom":"Rostaing", "age":10, "taille":1.80, "fonction":"PDG"}
-
 # for cle, valeur in di.items():
 #     print(f"{cle} : {valeur}")
 
@@ -245,7 +230,6 @@
 #         print(x, y)
 
 # t = [2, 3, 7]
-
 # l = [x*3 for x in t]
 # print(l)
 
@@ -254,8 +238,6 @@
 # print(hex(id(nom)))
 
 # prenom = "rostaing"
-
-
 # if prenom != "Rostaing":
 #     print(f"Vous n'êtes pas {prenom}.")
 # else:
@@ -290,11 +272,9 @@
 # tup = (45, 7, 8)
 # d = {"nom":"Rostaing", "age":12}
 # s = ((54, 0, 7))
-
 # print(type(s))
 
 # x = []
-
 # if x is not None:
 #     print("Pas vide")
 # else:
@@ -308,15 +288,35 @@
 #         Cette fonction dire_bonjour() permet de dire bonjour aux utilisateurs    
 #     '''
 #     print("Bojour, les amis de la data !")
-
-
 # dire_bonjour()
 
-x = 10
+# x = 10
+# def age(y):
+#     print(f"Bonjour, vous avez {y} ans")
+# age(x)
 
-def age(y):
-    print(f"Bonjour, vous avez {y} ans")
+# ou en python c'est or ou |
+# Cas 1
+# mon_prenom = "Rostaing"
+# if mon_prenom == "Rostaing" or mon_prenom == "rostaing":
+#     print("C'est moi !")
+# else:
+#     print("Ce n'est pas moi !")
 
+# Cas 2
+# mon_prenom = "Rostaing"
+# if (mon_prenom == "Rostaing") | (mon_prenom == "rostaing"):
+#     print("C'est moi !")
+# else:
+#     print("Ce n'est pas moi !")
 
-age(x)
+# note = 10
+# if note >= 10:
+#     print("Validé !")
+# else:
+#     print("Pas validé !")
 
+# a1, a2 = 10, 5: signiefie que a1 = 10 et a2 = 5
+a1, a2 = 10.5, 5.5
+difference = a1 - a2
+print(difference)
