@@ -157,7 +157,7 @@
 
 #     else:
 #         print(f"{x} est un nombre impair")
-# print(nombre_pair(3))
+# nombre_pair(3)
 
 # def maturite(age):
 #     if age < 18:
